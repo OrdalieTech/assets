@@ -1,8 +1,16 @@
 [
     {
+        "id": "20240218_A",
         "title":"Titre de la news",
         "date": "18/02/2024",
         "media": "medias/test.mp4",
         "body": "Voici le contenu de cette news extrêmement pertinente et intéressante."
+    },
+    {
+        "id": "20240218_B",
+        "title": "Ajout du RGPD",
+        "date": "18/02/2024",
+        "media": "medias/test.mp4",
+        "body": "Nous venons d'intégrer le RGPD à Ordalie !\nD'autres réglementations Européennes vont très bientôt suivre !"
     }
 ]
