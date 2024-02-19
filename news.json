@@ -8,5 +8,16 @@
         "author":"Baudouin",
         "onPage":"/chat",
         "proFeature": false
+    },
+    {
+        "id": "20240218_A",
+        "title": "Test page document",
+        "date": "20/02/2024",
+        "media": "medias/20240218_B.mp4",
+        "body": "Nous venons d'intégrer le RGPD dans la section recherche d'Ordalie. D'autres réglementations Européennes vont très bientôt suivre !",
+        "author":"Léa",
+        "onPage":"/docs",
+        "proFeature": false
     }
+
 ]
