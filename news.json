@@ -1,5 +1,15 @@
 [
     {
+        "id": "20240221_A",
+        "title": "Intégration de 600,000 nouvelles jurisprudences ⚖️",
+        "date": "21/02/2024",
+        "media": "medias/20240221_A.mp4",
+        "body": "Nous venons d'intégrer plus de 600,000 jurisprudences des Cours d'Appel, des Cours Administratives d'Appel ainsi que celles du Conseil d'État !",
+        "author":"Léa",
+        "onPage":"/chat",
+        "proFeature": false
+    },
+    {
         "id": "20240218_B",
         "title": "Intégration du RGPD aux sources 🇪🇺",
         "date": "18/02/2024",
