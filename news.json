@@ -1,11 +1,11 @@
 [
     {
-        "id": "20240221_A",
-        "title": "Intégration de 600,000 nouvelles jurisprudences ⚖️",
-        "date": "21/02/2024",
-        "media": "medias/20240221_A.mp4",
-        "body": "Nous venons d'intégrer plus de 600,000 jurisprudences des Cours d'Appel, des Cours Administratives d'Appel ainsi que celles du Conseil d'État !",
-        "author":"Léa",
+        "id": "20240223_A",
+        "title": "Interrogez vos documents !",
+        "date": "23/02/2024",
+        "media": "medias/20240223_A.mp4",
+        "body": "Collez tous vos contenus longs (arrêts, contrats...) dans le chat afin de faire raisonner Ordalie dessus.",
+        "author":"Baudouin",
         "onPage":"/chat",
         "proFeature": false
     }
