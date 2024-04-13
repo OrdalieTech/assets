@@ -1,12 +1,13 @@
 [
     {
-        "id": "20240223_A",
-        "title": "Interrogez vos documents !",
-        "date": "23/02/2024",
-        "media": "medias/20240223_A.mp4",
-        "body": "Collez tous vos contenus longs (arrêts, contrats...) dans le chat afin de faire raisonner Ordalie dessus.",
+        "id": "20240412_A",
+        "title": "Anonymisez vos documents !",
+        "date": "13/04/2024",
+        "media": "medias/20240412_A.mp4",
+        "body": "Le menu 'télécharger' vous permet désormais d'exporter vos documents en version anonymisée.",
         "author":"Baudouin",
-        "onPage":"/chat",
+        "onPage":"/docs",
         "proFeature": false
     }
 ]
+
