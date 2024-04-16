@@ -8,6 +8,15 @@
         "author":"Baudouin",
         "onPage":"/docs",
         "proFeature": false
+    },
+    {
+        "id": "20240416_A",
+        "title": "Nouveau module de formation !",
+        "date": "16/04/2024",
+        "media": "medias/20240416_A.mp4",
+        "body": "Nous vous proposons désormais des \"missions\" pour apprendre à utiliser le plein potentiel d'Ordalie. Rendez-vous sur le bouton \"Apprendre\" de la barre latérale.",
+        "author":"Léa",
+        "onPage":"/chat",
+        "proFeature": false
     }
 ]
-
