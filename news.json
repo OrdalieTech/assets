@@ -1,15 +1,5 @@
 [
     {
-        "id": "20240507_A",
-        "title": "Génération de documents améliorée !",
-        "date": "07/05/2024",
-        "media": "medias/20240507_A.mp4",
-        "body": "Nous avons fortement amélioré la qualité des documents et contrats générés par Ordalie !",
-        "author":"Clélie",
-        "onPage":"/docs",
-        "proFeature": false
-    },
-    {
         "id": "20240416_A",
         "title": "Nouveau module de formation !",
         "date": "16/04/2024",
