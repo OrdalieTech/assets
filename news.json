@@ -1,17 +1,15 @@
 [
     {
-        "id": "20240625_A",
-        "title": "Ajoutez vos sites favoris aux sources !",
-        "date": "25/06/2024",
-        "media": "medias/20240625_A.mp4",
-        "body": "Nous venons de mettre en place un système permettant à Ordalie d'indexer n'importe quel site internet dans sa base. Vous pouvez désormais ajouter vos sites informatifs favoris ! (cnil.fr, amf-france.org...)",
-        "author":"Baudouin",
-        "onPage":"/chat",
+        "id": "20241001_A",
+        "title": "English version !",
+        "date": "01/10/2024",
+        "media": "medias/20241001_A.mp4",
+        "body": {
+            "fr": "Ordalie est maintenant disponible en Anglais – rendez-vous dans les paramètres pour changer vos préférences.",
+            "en": "Ordalie is now available in English – head over to the settings page to change your preference."
+        },
+        "author": "L'équipe Ordalie",
+        "onPage": "/chat",
         "proFeature": false
     }
 ]
-
-
-
-
-
