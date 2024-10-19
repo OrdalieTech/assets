@@ -62,16 +62,6 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "190ae64e07e30252",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       }
@@ -107,20 +97,6 @@
             }
           },
           {
-            "id": "4d99e3baddf48e7a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "docs/doc.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from doc"
-            }
-          },
-          {
             "id": "e928a550e5c7cb7f",
             "type": "leaf",
             "state": {
@@ -144,6 +120,20 @@
               "icon": "lucide-list",
               "title": "Outline of doc"
             }
+          },
+          {
+            "id": "66e72bc06839e869",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/doc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from doc"
+            }
           }
         ]
       }
@@ -159,10 +149,11 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f0c14e90d191275",
+  "active": "b26be20e78f0119f",
   "lastOpenFiles": [
     "docs/doc.md",
     "docs"
