@@ -1,4 +1,4 @@
-# 1. Préambule
+# Bienvenue
 
 [*Vidéo d’introduction de la fondatrice - présentant Ordalie et ses fonctionnalités en gros.*]()
 
@@ -6,7 +6,7 @@ Ordalie est une des premières IA génératives juridiques françaises qui a vu 
 
 Notre mission : …
 
-# 2. Sources
+# Sources
 
 ## Sources d'Ordalie 📚
 
@@ -47,7 +47,7 @@ Ordalie vous permet également d'importer vos propres documents grâce au bouton
 
 En utilisant vos propres sources, vous transformez Ordalie en un outil sur-mesure, parfaitement adapté à vos besoins, tout en gardant un contrôle total sur la sécurité de vos informations.
 
-# 3. Ordalie Vault
+# Ordalie Vault
 
 **Vault** est un module installable **on-premise** 🏢, spécialement conçu pour les entreprises souhaitant maximiser l'intégration d'Ordalie avec leur système d'information (SI). En installant ce module directement dans leur environnement, Ordalie se connecte aux différentes sources de données internes de l'entreprise.
 
@@ -66,7 +66,7 @@ En plus de cela, Ordalie Vault facilite :
 
 Ordalie Vault s'intègre naturellement dans les flux de travail, transformant chaque recherche et chaque création documentaire en une expérience optimisée et adaptée aux besoins uniques de l'entreprise.
 
-## A. Comment l'utiliser ?
+## Comment l'utiliser ?
 
 ### 🔍 Recherche de documents
 
@@ -90,7 +90,7 @@ La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus c
 
 
 
-## B. Comment ça marche ?
+## Comment ça marche ?
 
 ```mermaid
 graph TD
@@ -165,7 +165,7 @@ Une fois les documents intégrés, le Serveur Vault les organise dans deux bases
 Ce système modulaire permet à Ordalie Vault de s'intégrer directement dans l'écosystème de l'entreprise, tout en bénéficiant des évolutions d'Ordalie pour rester toujours à jour.
 
 
-# 4. Assistant
+# Assistant
 
 ## Actions possibles
 
@@ -173,7 +173,7 @@ Ce système modulaire permet à Ordalie Vault de s'intégrer directement dans l'
 
 ## Historique
 
-# 5. Documents
+# Documents
 
 ## Importez vos documents
 
@@ -183,16 +183,16 @@ Ce système modulaire permet à Ordalie Vault de s'intégrer directement dans l'
 
 ## Génération de documents
 
-# 6. Autres fonctionnalités
+# Autres fonctionnalités
 
 ## Notes
 
 ## Recherche simple
 
-# 7. Gérez votre compte
+# Gérez votre compte
 
 ## Factures
 
 ## Modifiez votre abonnement
 
-# 8. Support
+# Support
