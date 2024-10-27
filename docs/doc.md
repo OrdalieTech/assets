@@ -62,32 +62,76 @@ La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus c
 
 ```mermaid
 graph TD
-    Client[User - Client Web Interface ] -->|Requêtes HTTP| API_Server
-    subgraph API_Server[Ordalie API Server]
-        AI_Models[AI Models & Processing Pipelines]
-        Data_Source_API[Data Source API]
+    Utilisateur[ordalie.com - Svelte] -->|Requêtes HTTP| Serveur_API
+    subgraph Serveur_API[Serveur API Ordalie]
+        Modeles_IA[Modèles IA & Pipelines de Traitement]
+        API_Sources_Donnees[API de Sources de Données]
     end
-    API_Server --> AI_Service[External AI Service]
-    API_Server -->|Tunnel VPN| Vault_Server
-    subgraph Vault_Server[Ordalie Vault Server]
-        Load_Balancer[Load Balancer] --> Core_Server[Core Golang Server]
-        Core_Server --> Doc_Ingestion_Pipeline[Document Ingestion Pipeline]
-        Core_Server --> Vector_DB[Vector Database]
-        Core_Server --> SQL_DB[PostgreSQL Database]
-        Vector_DB --> Optional_Shard2[Optional Shard]
-        Vector_DB --> Optional_Shard3[Optional Shard...]
+    Serveur_API --> Services_Ext[Endpoints Externes]
+    Serveur_API -->|Tunnel VPN| Serveur_Vault
+    subgraph Serveur_Vault[Serveur Ordalie Vault]
+        Equilibreur_Charge[Load balancer] --> Serveur_Central[Serveur Principal - Golang]
+        Serveur_Central --> Pipeline_Ingestion_Docs[Pipeline d'Ingestion de Documents]
+        Pipeline_Ingestion_Docs --> Connecteurs[Connecteurs]
+        Serveur_Central --> BDD_Vecteur[DB Vectorielle - Weaviate]
+        Serveur_Central --> BDD_SQL[DB - PostgreSQL]
+        BDD_Vecteur --> Partition_Optionnelle2[Sharding Optionnel]
+        BDD_Vecteur --> Partition_Optionnelle3[Autres Sharding...]
     end
-    subgraph External_Storage[External Storage Sources]
-        Storage1[Sharepoint]
-        Storage2[FTP]
-        Storage3[Drive]
-        Other_Sources[...]
+    subgraph Stockage_Externe[Sources de Stockage Externes]
+        Stockage1[Sharepoint]
+        Stockage2[FTP]
+        Stockage3[Drive]
+        Autres_Sources[...]
     end
-    Doc_Ingestion_Pipeline --> Storage1
-    Doc_Ingestion_Pipeline --> Storage2
-    Doc_Ingestion_Pipeline --> Storage3
-    Doc_Ingestion_Pipeline --> Other_Sources
+    Connecteurs -->|Update quotidienne| Stockage1
+    Connecteurs --> Stockage2
+    Connecteurs --> Stockage3
+    Connecteurs --> Autres_Sources
 ```
+
+Ordalie est structuré pour s'intégrer harmonieusement avec les systèmes d'information de ses utilisateurs, offrant ainsi une expérience enrichie et optimisée grâce à Ordalie Vault. Voici un aperçu du flux de données et du fonctionnement des différents composants :
+
+### 1. Utilisateur et Interface
+
+L'utilisateur interagit avec **Ordalie** via l'interface habituelle sur **ordalie.com**.
+
+### 2. Serveur API d'Ordalie
+
+Le **Serveur API d'Ordalie** est le cœur du système, centralisant toutes les requêtes de l'utilisateur et faisant le lien avec le Vault de manière exclusive et sécurisée.
+
+### 3. Connexion au Serveur Ordalie Vault via un Tunnel VPN sécurisé
+
+Pour accéder aux données internes de l'entreprise, le Serveur API d'Ordalie établit une connexion sécurisée via un tunnel VPN avec le **Serveur Ordalie Vault**. Ce dernier n'est pas une simple interface d'accès mais un module complet et autonome, conçu pour fonctionner en on-premise chez le client, tout en se synchronisant avec Ordalie pour les mises à jour et les évolutions de fonctionnalités.
+
+### 4. Serveur Ordalie Vault
+
+Le **Serveur Ordalie Vault** permet une intégration en profondeur avec les systèmes internes de l'entreprise, tout en offrant une infrastructure puissante et flexible :
+
+- **Équilibreur de Charge (Load Balancer)** : Distribue les requêtes efficacement pour optimiser la performance et la réactivité.
+- **Serveur Principal (Golang)** : Au cœur de ce serveur, le Serveur Principal gère les requêtes locales et orchestre les différentes étapes de traitement des données.
+- **Pipeline d'Ingestion de Documents** : Ce pipeline permet l'intégration automatique des documents internes de l'entreprise, en récupérant les fichiers depuis les différentes sources de stockage grâce aux connecteurs.
+
+### 5. Intégration des Sources de Données Externes
+
+Le **Pipeline d'Ingestion de Documents** du Serveur Vault s'appuie sur des **Connecteurs** pour se connecter aux sources de données externes de l'entreprise, telles que :
+
+- **Sharepoint**
+- **FTP**
+- **Google Drive**
+- Et **toute autre source** disposant d'un accès API ou d'un protocole de transfert de fichiers...
+
+Les connecteurs se mettent à jour quotidiennement, assurant que les informations disponibles dans Ordalie sont toujours récentes.
+
+### 6. Gestion et Optimisation des Données dans le Vault
+
+Une fois les documents intégrés, le Serveur Vault les organise dans deux bases de données :
+
+- **DB Vectorielle (Weaviate)** : Permet une recherche avancée et une organisation optimisée des documents par similarité de contenu. La base vectorielle peut également être partitionnée en **sharding** pour gérer les volumes de données importants de manière efficace.
+- **DB SQL (PostgreSQL)** : Utilisée pour la gestion des données structurées et des métadonnées, assurant une robustesse et une fiabilité dans le stockage et l'accès aux informations.
+
+Ce système modulaire permet à Ordalie Vault de s'intégrer directement dans l'écosystème de l'entreprise, tout en bénéficiant des évolutions d'Ordalie pour rester toujours à jour.
+
 
 # 4. Assistant
 
