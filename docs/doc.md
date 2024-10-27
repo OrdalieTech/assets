@@ -34,11 +34,25 @@ Ordalie Vault s'intègre naturellement dans les flux de travail, transformant ch
 
 ## A. Comment l'utiliser ?
 
-### Recherche de documents
+### 🔍 Recherche de documents
 
-En gros automatiquement les docuemnts vont être choisis par l'IA si elle juge ça pertinent.
-Sinon l'utilisateur peut explciitement demander quelque chose dans le "vault" auquel cas la recherche sera focalisée sur les documents internes.
+Ordalie facilite la recherche de documents en utilisant l'IA pour sélectionner automatiquement les fichiers les plus pertinents en fonction de votre requête.
 
+- **Recherche générale** : Par défaut, l'IA choisit les documents qu'elle juge utiles pour répondre à votre besoin.
+- **Recherche ciblée dans le vault** : Si vous souhaitez limiter la recherche aux documents internes, vous pouvez le faire explicitement en ciblant le "vault". Cela restreint les résultats aux données internes de votre entreprise.
+- **Onglet "/search"** : Accessible via l'icône de loupe, cet onglet permet de retrouver tous les documents du vault correspondant à une requête spécifique.
+
+[videos de démonstration intégrées]()
+
+### 📁 Navigation dans le vault
+
+Naviguer dans le vault est simple et intuitif. Dans chaque champ d'Ordalie, vous pouvez utiliser le symbole **"@"** pour mentionner des sources internes spécifiques liées à votre compte.
+
+1. **Accéder aux sources** : Une fois connecté au vault, le nom de votre entreprise s'affiche dans la liste des sources disponibles.
+2. **Navigation dans les dossiers** : Utilisez les flèches pour parcourir les dossiers et sélectionnez celui qui vous intéresse en appuyant sur **Enter** ou en cliquant dessus.
+3. **Analyse de dossiers** : Si vous sélectionnez un dossier, Ordalie analysera tous les documents qu’il contient, en profondeur, pour enrichir vos requêtes.
+
+La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus comme **"Générer avec l'IA"** et dans vos **presets d'analyses**. Cette fonctionnalité vous permet d'accéder facilement et rapidement aux connaissances internes de votre entreprise, optimisant ainsi chaque interaction avec Ordalie.
 
 
 
