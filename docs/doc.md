@@ -10,17 +10,49 @@ Notre mission : …
 
 ## Sources d'Ordalie 📚
 
+
+### Open Data
+
+Ordalie intègre des sources de données publiques provenant de la France et de l'Europe, couvrant une grande variété de textes de lois, règlements, et jurisprudences :
+
+- **France** 🇫🇷 :
+    - Tous les codes et lois, ainsi que les ordonnances officielles, sont consultables.
+    - Jurisprudence variée incluant les décisions de la Cour de cassation, des cours d’appel, des cours administratives d’appel, du Conseil d’État, et de certains tribunaux de première instance publiés dans des recueils publics.
+    - Autres ressources, comme le Bulletin officiel des finances publiques (BOFiP).
+
+- **Europe** 🇪🇺 :
+    - Les règlements et directives européens sont entièrement intégrés via **EUR-Lex**, offrant ainsi une vue complète de la réglementation applicable au sein de l’Union Européenne.
+    - Jurisprudences importantes de la Cour de Justice de l'Union Européenne (CJUE) et du Tribunal de l'Union Européenne (TUE).
+
+Ces sources publiques garantissent que les utilisateurs d’Ordalie ont accès à l’ensemble des documents de référence pertinents pour leurs recherches juridiques, couvrant ainsi les besoins en droit national et européen.
+
+
 ## Vos sources 🔒
 
-### Internet
+Ordalie vous permet d'intégrer vos propres sources de données, pour une recherche enrichie et totalement personnalisée, tout en garantissant une confidentialité absolue. Vos sources restent strictement privées et **ne sont jamais partagées** avec d'autres utilisateurs. Vous avez deux options principales pour ajouter vos propres données :
 
-### Documents utilisateur
+### 🌐 Internet
+
+Ordalie peut indexer des **sites internet de votre choix** pour enrichir vos recherches.
+
+> Nous avons choisi de ne pas indexer les résultats *Google* car il est difficile de garantir la fraîcheur de leurs informations. Cependant, nous vous laissons la responsabilité de choisir les sites auxquels vous faites confiance.
+
+Vous sélectionnez les sites spécifiques qui vous intéressent, et Ordalie se charge de les parcourir et d’indexer les informations qu’ils contiennent. Cela permet d'intégrer ces contenus aux réponses générées lors de vos recherches, offrant ainsi des résultats encore plus pertinents et complets.
+
+### 📄 Documents utilisateur
+
+Ordalie vous permet également d'importer vos propres documents grâce au bouton **"Ajouter aux sources"**. Que ce soit des mémos, des décisions de jurisprudence, ou des analyses internes, vos documents ajoutés deviennent directement intégrés dans la base de connaissances d’Ordalie et appuient les résultats de vos recherches.
+
+> **Confidentialité** 🔒 : Tous les documents importés restent strictement privés. Ils sont protégés et ne sont jamais partagés ni accessibles par d’autres utilisateurs. La sécurité de vos données est une priorité, assurant que seul votre compte ou votre organisation peut y accéder.
+
+En utilisant vos propres sources, vous transformez Ordalie en un outil sur-mesure, parfaitement adapté à vos besoins, tout en gardant un contrôle total sur la sécurité de vos informations.
 
 # 3. Ordalie Vault
 
+**Vault** est un module installable **on-premise** 🏢, spécialement conçu pour les entreprises souhaitant maximiser l'intégration d'Ordalie avec leur système d'information (SI). En installant ce module directement dans leur environnement, Ordalie se connecte aux différentes sources de données internes de l'entreprise.
+
 > **Ordalie Vault** est une offre disponible sur demande. Pour plus d'informations ou pour souscrire à cette solution, veuillez contacter notre équipe à l'adresse suivante : support@ordalie.com.
 
-**Vault** est un module installable **on-premise** 🏢, spécialement conçu pour les entreprises souhaitant maximiser l'intégration d'Ordalie avec leur système d'information (SI). En installant ce module directement dans leur environnement, Ordalie se connecte aux différentes sources de données internes de l'entreprise.
 
 ### Une solution sur-mesure pour valoriser le knowledge interne
 
