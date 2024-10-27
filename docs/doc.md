@@ -60,7 +60,7 @@ La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus c
 
 ## B. Comment ça marche ?
 
-````mermaid
+```mermaid
 graph TD
     Client[User - Client Web Interface ] -->|Requêtes HTTP| API_Server
     subgraph API_Server[Ordalie API Server]
