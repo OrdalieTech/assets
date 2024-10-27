@@ -8,17 +8,19 @@ Notre mission : …
 
 # 2. Sources
 
-## A. Sources d'Ordalie 📚
+## Sources d'Ordalie 📚
 
-## B. Vos sources 🔒
+## Vos sources 🔒
 
-### a) Internet
+### Internet
 
-### b) Documents utilisateur
+### Documents utilisateur
 
 # 3. Ordalie Vault
 
-**Ordalie Vault** est un module installable **on-premise** 🏢, spécialement conçu pour les entreprises souhaitant maximiser l'intégration d'Ordalie avec leur système d'information (SI). En installant ce module directement dans leur environnement, Ordalie se connecte aux différentes sources de données internes de l'entreprise.
+> **Ordalie Vault** est une offre disponible sur demande. Pour plus d'informations ou pour souscrire à cette solution, veuillez contacter notre équipe à l'adresse suivante : support@ordalie.com.
+
+**Vault** est un module installable **on-premise** 🏢, spécialement conçu pour les entreprises souhaitant maximiser l'intégration d'Ordalie avec leur système d'information (SI). En installant ce module directement dans leur environnement, Ordalie se connecte aux différentes sources de données internes de l'entreprise.
 
 ### Une solution sur-mesure pour valoriser le knowledge interne
 
@@ -39,7 +41,7 @@ Ordalie Vault s'intègre naturellement dans les flux de travail, transformant ch
 Ordalie facilite la recherche de documents en utilisant l'IA pour sélectionner automatiquement les fichiers les plus pertinents en fonction de votre requête.
 
 - **Recherche générale** : Par défaut, l'IA choisit les documents qu'elle juge utiles pour répondre à votre besoin.
-- **Recherche ciblée dans le vault** : Si vous souhaitez limiter la recherche aux documents internes, vous pouvez le faire explicitement en ciblant le "vault". Cela restreint les résultats aux données internes de votre entreprise.
+- **Recherche ciblée dans le vault** : Si vous souhaitez limiter la recherche aux documents internes, vous pouvez le faire explicitement en lui demandant de chercher dans le "vault". Cela restreint les résultats aux données internes de votre entreprise.
 - **Onglet "/search"** : Accessible via l'icône de loupe, cet onglet permet de retrouver tous les documents du vault correspondant à une requête spécifique.
 
 [videos de démonstration intégrées]()
@@ -58,34 +60,63 @@ La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus c
 
 ## B. Comment ça marche ?
 
+````mermaid
+graph TD
+    Client[User - Client Web Interface ] -->|Requêtes HTTP| API_Server
+    subgraph API_Server[Ordalie API Server]
+        AI_Models[AI Models & Processing Pipelines]
+        Data_Source_API[Data Source API]
+    end
+    API_Server --> AI_Service[External AI Service]
+    API_Server -->|Tunnel VPN| Vault_Server
+    subgraph Vault_Server[Ordalie Vault Server]
+        Load_Balancer[Load Balancer] --> Core_Server[Core Golang Server]
+        Core_Server --> Doc_Ingestion_Pipeline[Document Ingestion Pipeline]
+        Core_Server --> Vector_DB[Vector Database]
+        Core_Server --> SQL_DB[PostgreSQL Database]
+        Vector_DB --> Optional_Shard2[Optional Shard]
+        Vector_DB --> Optional_Shard3[Optional Shard...]
+    end
+    subgraph External_Storage[External Storage Sources]
+        Storage1[Sharepoint]
+        Storage2[FTP]
+        Storage3[Drive]
+        Other_Sources[...]
+    end
+    Doc_Ingestion_Pipeline --> Storage1
+    Doc_Ingestion_Pipeline --> Storage2
+    Doc_Ingestion_Pipeline --> Storage3
+    Doc_Ingestion_Pipeline --> Other_Sources
+```
+
 # 4. Assistant
 
-## A. Actions possibles
+## Actions possibles
 
-## B. Conseils d'utilisation
+## Conseils d'utilisation
 
-## C. Historique
+## Historique
 
 # 5. Documents
 
-## A. Importez vos documents
+## Importez vos documents
 
-### a) Import
+### Import
 
-### b) Organisation
+### Organisation
 
-## B. Génération de documents
+## Génération de documents
 
 # 6. Autres fonctionnalités
 
-## A. Notes
+## Notes
 
-## B. Recherche simple
+## Recherche simple
 
 # 7. Gérez votre compte
 
-## A. Factures
+## Factures
 
-## B. Modifiez votre abonnement
+## Modifiez votre abonnement
 
 # 8. Support
