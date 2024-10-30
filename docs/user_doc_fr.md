@@ -1,4 +1,4 @@
-# Bienvenue
+# Bienvenue sur Ordalie
 
 [*Vidéo d’introduction de la fondatrice - présentant Ordalie et ses fonctionnalités en gros.*]()
 
@@ -76,7 +76,14 @@ Ordalie facilite la recherche de documents en utilisant l'IA pour sélectionner 
 - **Recherche ciblée dans le vault** : Si vous souhaitez limiter la recherche aux documents internes, vous pouvez le faire explicitement en lui demandant de chercher dans le "vault". Cela restreint les résultats aux données internes de votre entreprise.
 - **Onglet "/search"** : Accessible via l'icône de loupe, cet onglet permet de retrouver tous les documents du vault correspondant à une requête spécifique.
 
-[videos de démonstration intégrées]()
+<iframe
+    src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/e6e41d96f30bda15e084ef3c62f2d76c/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2Fe6e41d96f30bda15e084ef3c62f2d76c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+></iframe>
+
 
 ### 📁 Navigation dans le vault
 
