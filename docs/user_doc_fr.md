@@ -11,7 +11,7 @@ Cette documentation est ici pour vous accompagner dans l’utilisation d’Ordal
 
 Merci de faire partie de ce chemin avec nous.
 
-<font-handwritten>Léa Fleury</font-handwritten>
+<span class="font-virgil">Léa Fleury</span>
 Co-fondatrice d'Ordalie
 
 
