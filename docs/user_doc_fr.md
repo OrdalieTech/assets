@@ -1,4 +1,5 @@
 # Bienvenue sur Ordalie
+<section-meta author="Léa Fleury" date="2024-10-25"></section-meta>
 
 [*Vidéo d’introduction de la fondatrice - présentant Ordalie et ses fonctionnalités en gros.*]()
 
@@ -7,9 +8,9 @@ Ordalie est une des premières IA génératives juridiques françaises qui a vu 
 Notre mission : …
 
 # Sources
+<section-meta author="Baudouin Arbarétier" date="2024-10-30"></section-meta>
 
 ## Sources d'Ordalie 📚
-
 
 ### Open Data
 
@@ -48,6 +49,7 @@ Ordalie vous permet également d'importer vos propres documents grâce au bouton
 En utilisant vos propres sources, vous transformez Ordalie en un outil sur-mesure, parfaitement adapté à vos besoins, tout en gardant un contrôle total sur la sécurité de vos informations.
 
 # Ordalie Vault
+<section-meta author="Baudouin Arbarétier" date="2024-10-30"></section-meta>
 
 **Vault** est un module installable **on-premise** 🏢, spécialement conçu pour les entreprises souhaitant maximiser l'intégration d'Ordalie avec leur système d'information (SI). En installant ce module directement dans leur environnement, Ordalie se connecte aux différentes sources de données internes de l'entreprise.
 
