@@ -1,11 +1,19 @@
-# Bienvenue sur Ordalie
+# Bienvenue
 <section-meta author="Léa Fleury" date="2024-10-25"></section-meta>
 
-[*Vidéo d’introduction de la fondatrice - présentant Ordalie et ses fonctionnalités en gros.*]()
+Chez Ordalie, nous pensons que les professionnels du droit méritent des outils à la hauteur des défis qu’ils rencontrent au quotidien. Le droit est un domaine exigeant, qui demande précision, rigueur et beaucoup de temps. Notre idée est simple : mettre la technologie et l’IA au service de ces exigences, pour permettre aux juristes d’élargir leurs capacités sans compromettre la qualité.
 
-Ordalie est une des premières IA génératives juridiques françaises qui a vu le jour le 1er Mai 2023.
+Nous avons conçu Ordalie pour offrir un appui concret, que ce soit pour la recherche d’informations ou la rédaction de documents. Ce n’est pas seulement une question de productivité, mais de permettre aux juristes de se concentrer davantage sur ce qui apporte de la valeur – l’analyse, la stratégie, la créativité dans leur pratique. Ordalie est là pour prendre en charge les tâches répétitives et techniques, tout en respectant la confidentialité et la sécurité des données, car cela reste une priorité pour nous.
 
-Notre mission : …
+Nous avons choisi de développer nos propres modèles d’IA, optimisés spécifiquement pour le secteur juridique, et certains sont même partagés en open source. Cela s’inscrit dans notre conviction en une IA souveraine, développée localement, qui respecte l’indépendance et la transparence. Chaque jour, nous avançons avec cette même volonté de créer un outil utile et fiable, en restant attentifs aux retours et aux besoins réels des professionnels du droit.
+
+Cette documentation est ici pour vous accompagner dans l’utilisation d’Ordalie. Nous espérons qu’elle vous sera utile et qu’ensemble, nous pourrons continuer à affiner cette vision.
+
+Merci de faire partie de ce chemin avec nous.
+
+<font-handwritten>Léa Fleury</font-handwritten>
+Co-fondatrice d'Ordalie
+
 
 # Sources
 <section-meta author="Baudouin Arbarétier" date="2024-10-30"></section-meta>
