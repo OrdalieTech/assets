@@ -77,7 +77,7 @@ Ordalie facilite la recherche de documents en utilisant l'IA pour sélectionner 
 - **Onglet "/search"** : Accessible via l'icône de loupe, cet onglet permet de retrouver tous les documents du vault correspondant à une requête spécifique.
 
 
-<video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/e6e41d96f30bda15e084ef3c62f2d76c/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2Fe6e41d96f30bda15e084ef3c62f2d76c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
+
 
 
 
@@ -91,6 +91,7 @@ Naviguer dans le vault est simple et intuitif. Dans chaque champ d'Ordalie, vous
 
 La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus comme **"Générer avec l'IA"** et dans vos **presets d'analyses**. Cette fonctionnalité vous permet d'accéder facilement et rapidement aux connaissances internes de votre entreprise, optimisant ainsi chaque interaction avec Ordalie.
 
+<video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/e6e41d96f30bda15e084ef3c62f2d76c/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2Fe6e41d96f30bda15e084ef3c62f2d76c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
 
 
 ## Comment ça marche ?
