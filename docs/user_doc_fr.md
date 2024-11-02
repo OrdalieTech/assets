@@ -1,5 +1,4 @@
 # Bienvenue
-<section-meta author="Léa Fleury" date="2024-10-25"></section-meta>
 
 Chez Ordalie, nous pensons que les professionnels du droit méritent des outils à la hauteur des défis qu’ils rencontrent au quotidien. Le droit est un domaine exigeant, qui demande précision, rigueur et beaucoup de temps. Notre idée est simple : mettre la technologie et l’IA au service de ces exigences, pour permettre aux juristes d’élargir leurs capacités sans compromettre la qualité.
 
@@ -99,6 +98,20 @@ Naviguer dans le vault est simple et intuitif. Dans chaque champ d'Ordalie, vous
 <video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/e6e41d96f30bda15e084ef3c62f2d76c/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2Fe6e41d96f30bda15e084ef3c62f2d76c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
 
 La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus comme **"Générer avec l'IA"** et dans vos **presets d'analyses**. Cette fonctionnalité vous permet d'accéder facilement et rapidement aux connaissances internes de votre entreprise, optimisant ainsi chaque interaction avec Ordalie.
+
+### 📝 Génération de documents
+
+La fonctionnalité de génération de documents d'Ordalie Vault permet d'exploiter vos modèles internes comme base de création. Accessible depuis la page "/documents" via le bouton "Générer avec l'IA", cette fonction vous permet de :
+
+- Sélectionner n'importe quel document du vault comme template
+- Personnaliser la génération en fonction de vos besoins spécifiques
+- Conserver la mise en forme et la structure de vos documents internes
+
+
+
+Le document généré conservera ainsi les éléments clés de votre template tout en s'adaptant à votre demande spécifique. Cette approche garantit l'homogénéité de vos documents tout en optimisant le processus de création.
+
+L'IA peut également générer plusieurs versions du même document en une seule fois, en adaptant automatiquement le contenu selon différents paramètres (clients, dates, montants...) — pour ce faire, il suffit de spécifier les variations souhaitées dans la requête et le nombre de documents à générer.
 
 
 
