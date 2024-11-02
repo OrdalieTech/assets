@@ -107,6 +107,7 @@ La fonctionnalité de génération de documents d'Ordalie Vault permet d'exploit
 - Personnaliser la génération en fonction de vos besoins spécifiques
 - Conserver la mise en forme et la structure de vos documents internes
 
+<video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/0466bbcdeb5835b94dfeff360dfc9395/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2F0466bbcdeb5835b94dfeff360dfc9395%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
 
 
 Le document généré conservera ainsi les éléments clés de votre template tout en s'adaptant à votre demande spécifique. Cette approche garantit l'homogénéité de vos documents tout en optimisant le processus de création.
