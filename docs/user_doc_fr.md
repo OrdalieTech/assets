@@ -1,4 +1,4 @@
-# Bienvenue
+# Bienvenue sur Ordalie
 
 Chez Ordalie, nous sommes convaincus que les professionnels du droit méritent des outils à la hauteur de la complexité et de l’exigence de leur métier. Le droit est un domaine qui requiert un engagement total, une minutie absolue et un investissement en temps considérable pour atteindre la précision attendue. Notre vision est claire : exploiter toutes les possibilités qu’offre l’IA pour permettre aux juristes d’élargir leurs capacités sans jamais compromettre la qualité, la rigueur ni l’intégrité de leur travail.
 
