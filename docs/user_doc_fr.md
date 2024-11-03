@@ -129,6 +129,19 @@ Le document généré conservera ainsi les **éléments clés** de votre templat
 
 > **Bonus** ✨ : L'IA peut générer *plusieurs versions* du même document en une seule fois, en adaptant automatiquement le contenu selon différents paramètres (*clients*, *dates*, *montants*...). Il suffit de spécifier les variations souhaitées dans la requête et le nombre de documents à générer.
 
+### 🔍 Suggestion de clauses
+
+La fonctionnalité de suggestion de clauses vous permet d'exploiter efficacement votre base documentaire interne :
+
+- **Recherche de passages similaires** : En ouvrant un document, vous pouvez surligner n'importe quel passage et cliquer sur "Rechercher des passages similaires" pour identifier des clauses analogues dans l'ensemble de vos documents du vault.
+- **Réécriture intelligente** : Une fois les passages similaires identifiés, l'IA peut réécrire la clause sélectionnée en s'inspirant des variantes trouvées, valorisant ainsi le savoir-faire interne de votre cabinet ou entreprise.
+
+<video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/fe55e723b69abb713adc19cf6d8bb5e3/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2Ffe55e723b69abb713adc19cf6d8bb5e3%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
+
+> **Note** ⚡ : Cette fonctionnalité est actuellement en version bêta. Vos retours sont précieux pour nous aider à l'améliorer - n'hésitez pas à nous faire part de vos suggestions !
+
+
+
 
 
 ## Comment ça marche ?
@@ -236,4 +249,12 @@ Ce système modulaire permet à Ordalie Vault de s'intégrer directement dans l'
 
 ## Modifiez votre abonnement
 
+
 # Support
+
+Ordalie évolue rapidement avec de nombreuses fonctionnalités en développement. Votre avis est essentiel pour orienter notre progression.
+
+Nous encourageons vivement tous nos utilisateurs à partager leurs retours d'expérience, suggestions et commentaires, qu'ils soient positifs ou négatifs. Chaque contribution aide à façonner l'avenir d'Ordalie et à l'améliorer pour mieux répondre à vos besoins.
+
+Pour nous contacter :
+- Email : support@ordalie.ai
