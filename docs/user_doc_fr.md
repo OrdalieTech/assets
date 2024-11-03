@@ -87,17 +87,32 @@ Ordalie facilite la recherche de documents en utilisant l'IA pour sélectionner 
 - **Onglet "/search"** : Accessible via l'icône de loupe, cet onglet permet de retrouver tous les documents du vault correspondant à une requête spécifique.
 
 
-### 📁 Navigation dans le vault
+### 📁 Utilisez vos documents Vault
 
-Naviguer dans le vault est simple et intuitif. Dans chaque champ d'Ordalie, vous pouvez utiliser le symbole **"@"** pour mentionner des sources internes spécifiques liées à votre compte.
+Naviguer dans le vault est simple. Dans chaque champ d'Ordalie, vous pouvez utiliser le symbole **"@"** pour mentionner des sources internes spécifiques liées à votre compte.
 
-1. **Accéder aux sources** : Une fois connecté au vault, le nom de votre entreprise s'affiche dans la liste des sources disponibles.
-2. **Navigation dans les dossiers** : Utilisez les flèches pour parcourir les dossiers et sélectionnez celui qui vous intéresse en appuyant sur **Enter** ou en cliquant dessus.
+1. **Accéder aux sources** : Une fois connecté au vault, le nom de votre vault s'affiche dans la liste des sources disponibles.
+2. **Navigation dans les dossiers** : Parcourez les dossiers avec les flèches ou la souris, puis sélectionnez votre fichier ou dossier en appuyant sur **Enter** ou en cliquant dessus.
 3. **Analyse de dossiers** : Si vous sélectionnez un dossier, Ordalie analysera tous les documents qu’il contient, en profondeur, pour enrichir vos requêtes.
 
 <video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/e6e41d96f30bda15e084ef3c62f2d76c/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2Fe6e41d96f30bda15e084ef3c62f2d76c%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
 
 La commande **"@"** est utilisable dans le chat, ainsi que dans d'autres menus comme **"Générer avec l'IA"** et dans vos **presets d'analyses**. Cette fonctionnalité vous permet d'accéder facilement et rapidement aux connaissances internes de votre entreprise, optimisant ainsi chaque interaction avec Ordalie.
+
+
+### 🧭 Naviguez dans le vault
+
+Le vault reproduit fidèlement la structure de vos fichiers et dossiers, vous permettant de retrouver naturellement vos documents comme dans votre environnement habituel :
+
+- **Bouton "Ouvrir le fichier"** 📄 : Permet de télécharger une copie du fichier original tel qu'il est stocké sur le serveur
+- **Fil d'Ariane** 🗂️ : Affiche le chemin complet depuis le dossier racine jusqu'au document actuel
+  - Cliquez sur n'importe quel élément du fil d'Ariane pour explorer son contenu
+  - Visualisez récursivement tous les documents contenus dans chaque dossier
+
+<video-embed src="https://customer-xa6r67fpbzwss0sd.cloudflarestream.com/2ff1307a154cf8d0fbcdc07797bca96b/iframe?poster=https%3A%2F%2Fcustomer-xa6r67fpbzwss0sd.cloudflarestream.com%2F2ff1307a154cf8d0fbcdc07797bca96b%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"></video-embed>
+
+
+
 
 ### 📝 Génération de documents
 
